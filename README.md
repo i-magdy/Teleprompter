@@ -13,7 +13,7 @@ You just read what you wrote when you are looking at your Listeners.
 
 ### Adding script
 You can add script in 3 ways:
--Write
--upload text file
--using OCR "Optical character recognition"
+Write
+upload text file
+using OCR "Optical character recognition"
 <img src="https://firebasestorage.googleapis.com/v0/b/teleprompter-9cd6d.appspot.com/o/Screenshot_20220311-183428.png?alt=media&token=249ccf50-2efd-468f-a7fc-a9e16ad58cb4" alt="drawing" width="300"/>
