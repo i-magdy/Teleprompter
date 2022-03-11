@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    tools:context=".ui.AddScriptActivity"
+    android:background="@color/colorBackground">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="New script"
+            app:titleTextColor="#000000"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+            <ImageButton
+                android:id="@+id/save_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@null"
+                android:contentDescription="@string/saveScript_content_des"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                app:tint="#000000"
+                android:src="@drawable/ic_baseline_save_24" />
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <EditText
+        android:id="@+id/title_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_margin="4dp"
+        android:hint="@string/title_edit_hint"
+        android:background="@color/cardview_light_background"
+        android:inputType="text"
+        android:paddingStart="@dimen/text_view_padding"
+        android:paddingEnd="@dimen/text_view_padding"
+        android:importantForAutofill="no" />
+
+    <ScrollView
+
+        android:layout_below="@+id/title_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/script_edit_tex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:layout_margin="4dp"
+            android:autofillHints=""
+            android:background="@color/cardview_light_background"
+            android:hint="@string/script_edit_hint"
+            android:inputType="textMultiLine"
+            android:paddingLeft="@dimen/text_view_padding"
+            android:paddingRight="@dimen/text_view_padding"
+            android:textAlignment="gravity"
+            tools:targetApi="o" />
+
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_capture_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/ic_baseline_camera_alt_24"
+        app:tint="#000000"
+        android:layout_marginBottom="24dp"
+        android:elevation="@dimen/fab_elevation" />
+
+</RelativeLayout>

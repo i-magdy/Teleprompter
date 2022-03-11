@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_container"
+    tools:context=".ui.MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/app_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="180dp"
+            android:contentDescription="@string/logo_content_des"
+            android:elevation="2dp"
+            android:src="@drawable/teleprompterlogo" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="48dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:elevation="4dp" />
+
+        <Button
+            android:id="@+id/skip_login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:background="@null"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:text="@string/skip_button"
+            android:textAllCaps="true"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#F9AA33</color>
+    <color name="snackbar_color">#149E00</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorText">#263238</color>
+    <color name="recording">#FF0000</color>
+
+</resources>

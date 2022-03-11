@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "943739463677",
+    "firebase_url": "https://teleprompter-9cd6d.firebaseio.com",
+    "project_id": "teleprompter-9cd6d",
+    "storage_bucket": "teleprompter-9cd6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943739463677:android:0a45982125110e55",
+        "android_client_info": {
+          "package_name": "ibrahimmagdy.example.com.teleprompter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943739463677-frtdgicm1i7uo3nhkfgrass0gfatp27c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ibrahimmagdy.example.com.teleprompter",
+            "certificate_hash": "63bdd6a60ffb1b488e56a008885eeee74eddc0d7"
+          }
+        },
+        {
+          "client_id": "943739463677-nb8sg3fmb4jhceastc61n1iglshphd3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZatmB5pfT93bNPQlIgQA0oz8_OHqkoa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943739463677-nb8sg3fmb4jhceastc61n1iglshphd3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

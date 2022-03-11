@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:background="@color/colorBackground">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_review"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:titleTextColor="#000000"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <ImageButton
+                android:id="@+id/delete_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="end"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/deleteImage_des"
+                android:elevation="@dimen/fab_elevation"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                app:tint="#000000"
+                android:src="@drawable/ic_baseline_delete_outline_24" />
+
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/scrollview_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:id="@+id/textView_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/cardview_light_background"
+            android:paddingStart="@dimen/text_view_padding"
+            android:paddingEnd="@dimen/text_view_padding"
+            android:textAlignment="viewStart"
+            android:textSize="@dimen/script_text_size"
+            android:textStyle="bold" />
+    </ScrollView>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/button_start_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="@dimen/fab_margin"
+        android:elevation="@dimen/fab_elevation"
+        app:tint="#000000"
+        android:src="@drawable/ic_outline_play_arrow_24" />
+    <android.support.design.widget.FloatingActionButton
+        android:visibility="gone"
+        android:id="@+id/button_pause_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="@dimen/fab_margin"
+        android:elevation="@dimen/fab_elevation"
+        app:tint="#000000"
+        android:src="@drawable/ic_baseline_pause_24" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:elevation="@dimen/fab_elevation"
+        app:tint="#000000"
+        android:src="@drawable/cameravideo" />
+
+
+</android.support.design.widget.CoordinatorLayout>
