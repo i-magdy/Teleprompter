@@ -10,7 +10,7 @@ You just read what you wrote when you are looking at your Listeners.
 
 ### Home page
 <img src="https://firebasestorage.googleapis.com/v0/b/teleprompter-9cd6d.appspot.com/o/Screenshot_20220311-134207.png?alt=media&token=60982fef-fc38-410d-ae55-d9729af992ef" alt="drawing" width="300"/>
-https://firebasestorage.googleapis.com/v0/b/teleprompter-9cd6d.appspot.com/o/Screenshot_20220311-183428.png?alt=media&token=249ccf50-2efd-468f-a7fc-a9e16ad58cb4
+
 ### Adding script
 You can add script in 3 ways:
 -Write
